@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSFFlowViewLayout version="1.0">
+  <Drawing gridVisible="true" snapOn="true" />
+  <JSFFlowResource path="/mainTemplate.jspx" location="300,80" dimension="175,36" />
+  <JSFFlowResource path="/navigation.jspx" location="305,153" dimension="149,36" />
+  <JSFFlowResource path="/content-facelet.jspx" location="507,164" dimension="180,36" />
+  <JSFFlowResource path="/country-facelet.jspx" location="95,193" dimension="179,36" />
+  <JSFFlowResource path="/Busqueda.jspx" location="180,280" dimension="144,36" />
+  <JSFFlowResource path="/MenuPrincipal.jspx" location="20,420" dimension="173,36" />
+  <JSFFlowResource path="/Detalle.jspx" location="616,393" dimension="127,36" />
+  <JSFFlowResource path="/header.jspx" location="400,340" dimension="125,36" />
+  <JSFFlowResource path="/headerHtml.jspx" location="400,280" dimension="158,36" />
+  <JSFFlowResource path="/footer.jspx" location="402,404" dimension="120,36" />
+  <JSFFlowResource path="/Logeo.jspx" location="398,470" dimension="121,36" />
+  <JSFFlowResource path="/Captacion.jspx" location="180,520" dimension="146,36" />
+  <JSFFlowResource path="/Catalogos.jspx" location="398,562" dimension="146,36" />
+  <JSFFlowResource path="/Importacion.jspx" location="397,641" dimension="160,36" />
+  <JSFFlowResource path="/Exportar.jspx" location="856,133" dimension="115,36" />
+  <JSFFlowNavigationCase id="/Busqueda.jspx,/MenuPrincipal.jspx,toMenu,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="185,316" />
+      <AbsolutePoint location="185,420" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/Busqueda.jspx,/Detalle.jspx,toDetalle,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="252,316" />
+      <AbsolutePoint location="252,396" />
+      <AbsolutePoint location="616,396" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/Busqueda.jspx,/Busqueda.jspx,toBusqueda,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="252,280" />
+      <AbsolutePoint location="252,251" />
+      <AbsolutePoint location="363,251" />
+      <AbsolutePoint location="363,298" />
+      <AbsolutePoint location="324,298" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/MenuPrincipal.jspx,/Captacion.jspx,toCapture,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="185,456" />
+      <AbsolutePoint location="185,520" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/MenuPrincipal.jspx,/Busqueda.jspx,toBusqueda,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="106,420" />
+      <AbsolutePoint location="106,298" />
+      <AbsolutePoint location="180,298" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/MenuPrincipal.jspx,/Catalogos.jspx,toCatalogos,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="106,456" />
+      <AbsolutePoint location="106,580" />
+      <AbsolutePoint location="398,580" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/Detalle.jspx,/Busqueda.jspx,toBusqueda,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="679,393" />
+      <AbsolutePoint location="679,323" />
+      <AbsolutePoint location="267,323" />
+      <AbsolutePoint location="267,316" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/Captacion.jspx,/MenuPrincipal.jspx,toMenu,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="180,538" />
+      <AbsolutePoint location="136,538" />
+      <AbsolutePoint location="136,456" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/Catalogos.jspx,/MenuPrincipal.jspx,toMenu,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="398,595" />
+      <AbsolutePoint location="91,595" />
+      <AbsolutePoint location="91,456" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+</JSFFlowViewLayout>
+
