@@ -1,0 +1,247 @@
+.contenedor{
+	width:1100px;
+	height:600px;
+	/*border:1px solid #666;*/
+	margin:auto;
+}
+.header{
+	width:1100px;
+	height:135px;
+	/*border:1px solid #666;*/
+	margin:auto;
+	background-image: url('../images/header.jpg');
+	background-size: 1100px ; 
+	background-repeat: no-repeat; 
+	font-size:12px;
+	
+	
+}
+.prueba{
+	background:none;
+	
+}
+.footer{
+	width:1198px;
+	height:35px;
+	border:1px solid #666;
+	margin:auto;
+	background-color:#fff; 
+	
+	
+}
+
+.cajaLogeo{
+	width:410px; height:150px; margin:auto;  border:1px solid #666; background-image:url('../images/fondoLogin.jpg');
+}
+.posicionL{
+	float:left; margin-left:30px;
+}
+.cajaL{
+	border: 1px solid #666; padding:4px; width:60px; background:#F7F7F7; text-align:center; margin-top:3px;
+}
+.contenedorCont{padding: 5px; font-size:11px; border: 1px solid #D0F5A9; width:1089px; height:450px;}
+.contMedia{margin:5px; background-color: #F5F5F5;  float:left; height:436px; width:927px;}
+.textoL{
+	color:#666;  font-size:12px; font-weight:bold;
+}
+.cajaTitulo{	
+	font-weight:bold;
+	font-size:11px;
+	width:200px;
+}
+.cajaLabel{
+	font-family:'Times New Roman',Georgia,Serif; color:#000; font-size:14px;
+}
+
+.errorBox{
+	font-size:10px;
+	color:#FE2E2E;
+}
+.cuadros{
+	margin:10px 10px;
+	text-indent:5px;
+}
+.fontPlanosSelect{
+	font-size:10px; color:#6E6E6E; font-weight:bold;
+	
+}
+.fontCombo{
+	font-size:10px; color:#424242; font-weight:bold;
+	width:270px; margin-left:13px;
+}
+.fontKm{
+	font-size:10px; color:#424242; font-weight:bold;
+	text-align:right;
+	width:80px; margin-left:13px;
+}
+.fontComboB{
+	font-size:10px; color:#424242; font-weight:bold;
+	width:230px; 
+}
+.fontMany{
+	font-size:11px; color:#424242; font-weight:bold;
+	width:150px;
+}
+.celdas{
+	
+	white-space: nowrap; text-align:left;
+}
+.headerTable{
+	width:200px;
+}
+.headerTableCh{
+	width:100px;
+}
+.headerClass{
+	width:90px;
+}
+.iceDatTblCol1{
+	width:10%;
+	
+}
+.fontCeldas{
+	color:#585858;
+	font-weight:bold;
+	
+}
+.fontTitulo{
+	font-size:11px;
+	font-color:#2E2E2E;
+	
+}
+.fontTituloMany{
+	font-size:11px;
+	font-color:#666;
+	font-weight:bold;	
+}
+.fontInput{
+	font-size:11px;
+	
+	color:#000;
+}
+.progresBar{
+	width:150px;
+}
+.buttonClass{
+	font-size:8px;
+}
+.sepVertical{
+	background:#E6E6E6;	
+	width:1px;	
+	height:160px;
+	float:left;
+	margin-right:30px;
+}
+.sepHorizontal{
+	background:#E6E6E6;	
+	width:850px;	
+	height:1px;
+	float:left;
+	margin-left:90px;
+}
+.cajaBotonAceptar {
+	text-align:center;
+	margin: 0 30px 0 0;
+	border: 1px solid #666;
+	padding: 3px;
+	background: #F7F7F7;
+	color: #003366;
+	font: 13px arial, sans-serif;
+	width:60px;
+	float:right;
+}
+.cajaBotonAceptarCEsion {
+	text-align:center;	
+	border: 1px solid #666;
+	padding: 3px;
+	background: #F7F7F7;
+	color: #003366;
+	font: 13px arial, sans-serif;
+	width:60px;
+	float:right;
+	margin-right:5px;
+	margin-top:-30px;
+}
+
+.cajaBotonVolcar {
+	text-align:center;	
+	border: 1px solid #666;
+	padding: 3px;
+	background: #F7F7F7;
+	color: #003366;
+	font: 13px arial, sans-serif;
+	width:150px;
+	float:right;
+	
+}
+.cajaBotonQuitar {
+	text-align:center;	
+	border: 1px solid #B40404;
+	padding: 2px;
+	background: #F7F7F7;
+	color: #B40404;
+	font: 10px arial, sans-serif;
+	width:40px;
+	float:right;
+	margin-right:2px;
+	margin-top:-20px;
+}
+.cajaBotonAceptar2{
+	text-align:center;
+	margin-left:160px;
+	border: 1px solid #666;
+	padding: 3px;
+	background: #FFF;
+	color: #003366;
+	font: 12px arial, sans-serif;
+	width:60px;
+	font-weight:bold;
+}
+.popupbody{
+	
+}
+.tablaUbicacion{
+	width:300px;
+	font-size:11px; 
+}
+.fontInput{
+	font-size:11px; color:#666;
+}
+#LinkJerar:link{	
+	text-decoration: none;
+	color:#666;
+	font-weight:bold;
+}
+#LinkJerar:visited{	
+	font-weight:bold;
+	color:#FFF;
+	
+}
+#LinkJerar:active{
+	color:#666;
+	font-weight:bold;
+}
+#LinkJerar:hover{
+	color:#000;
+	font-weight:bold;	
+}
+
+
+.LinkJerar:link{	
+	text-decoration: none;
+	color:#666;
+	font-weight:bold;
+}
+.LinkJerar:visited{	
+	font-weight:bold;
+	color:#FFF;
+	
+}
+.LinkJerar:active{
+	color:#666;
+	font-weight:bold;
+}
+.LinkJerar:hover{
+	color:#000;
+	font-weight:bold;	
+}

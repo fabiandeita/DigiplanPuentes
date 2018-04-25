@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ice="http://www.icesoft.com/icefaces/component" >
+    
+    <ice:outputDeclaration doctypeRoot="HTML"
+                           doctypePublic="-//W3C//DTD HTML 4.01 Transitional//EN"
+                           doctypeSystem="http://www.w3.org/TR/html4/loose.dtd"/>
+    <head>
+        <title>MENÚ</title>
+         <link rel="stylesheet" type="text/css" href="./xmlhttp/css/rime/rime.css"/>
+         <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+         
+    </head>
+    
+    <body style="background-image:url(resources/images/fondotextura.jpg); background-repeat:repeat;">   
+    
+    	<div style="margin:auto; width:1100px; ">     
+    		    
+	    
+	    
+		<ui:insert name="header">
+	    	<ui:include src="header.jspx" />
+	    </ui:insert>
+	    <ice:panelGroup styleClass="contenedorCont" rendered="#{!logeo.showPopup}">
+	    	
+	    	<!-- Media -->
+	    	<ice:panelGroup styleClass="contMedia">
+				<ice:outputMedia id="outputMedia" player="flash" source="#{media.source}" style="#{media.style}">
+					<f:param name="#{media.autoStartParamName}" value="#{media.autoStartParamValue}" />
+					<f:param name="#{media.controlsParamName}" value="#{media.controlsParamValue}" />
+				</ice:outputMedia>
+			</ice:panelGroup>
+			
+			<!-- Menú -->
+			<ice:form>
+			<ice:panelGrid columns="1" style="width:120px; margin:3px 0 0 10px;;  float:left;">
+				<ice:commandLink action="#{navigation.toCapture}"  rendered="#{logeo.us.permisos == 0 ? true:false}" >
+					<ice:graphicImage value="resources/images/Boton-Cap.gif" style="border: solid 1px #666; width:120px;"  />
+				</ice:commandLink>
+				<ice:commandLink action="#{navigation.toBusqueda}">
+					<ice:graphicImage value="resources/images/Boton-Bus.gif" style="border: solid 1px #666; width:120px;"  />
+				</ice:commandLink>	
+				<ice:commandLink action="#{navigation.toCatalogos}" rendered="false">
+					<ice:graphicImage value="resources/images/Boton-Catalogos-Act.gif" style="border: solid 1px #666; width:120px;"  />
+				</ice:commandLink>	
+			</ice:panelGrid>
+			</ice:form>
+	    </ice:panelGroup>
+	    </div>
+	</body>
+</html>
+	

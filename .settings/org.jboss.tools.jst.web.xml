@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file-systems VERSION="2.0.0" application-name="DIGIPLAN"
+ model-entity="FileSystems" workspace-home="./WebRoot/WEB-INF">
+ <file-system NAME="WEB-INF" location="%workspace.home%" model-entity="FileSystemFolder"/>
+ <file-system NAME="WEB-ROOT" info="Content-Type=Web"
+  location="%workspace.home%/.." model-entity="FileSystemFolder"/>
+ <file-system NAME="src" location="%workspace.home%/../../src" model-entity="FileSystemFolder"/>
+ <file-system NAME="lib" location="%workspace.home%/lib" model-entity="FileSystemFolder"/>
+ <file-system NAME="classes" location="%workspace.home%/classes" model-entity="FileSystemFolder"/>
+ <file-system NAME="lib-javaee.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.j2eedt.core_10.5.0.me201207171805\data\libraryset\EE_5\javaee.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-jsf-impl.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.j2eedt.core_10.5.0.me201207171805\data\libraryset\EE_5\jsf-impl.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-jsf-api.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.j2eedt.core_10.5.0.me201207171805\data\libraryset\EE_5\jsf-api.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-jstl-1.2.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.j2eedt.core_10.5.0.me201207171805\data\libraryset\EE_5\jstl-1.2.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-jxl.jar"
+  location="C:\Workspaces\MyEclipse 10\DIGIPLAN\WebRoot\WEB-INF\lib\jxl.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-mysql-connector-java-5.1.13-bin.jar"
+  location="C:\Workspaces\MyEclipse 10\DIGIPLAN\WebRoot\WEB-INF\lib\mysql-connector-java-5.1.13-bin.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-icefaces.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\icefaces.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-icefaces-comps.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\icefaces-comps.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-commons-beanutils.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\commons-beanutils.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-commons-collections.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\commons-collections.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-commons-digester.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\commons-digester.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-commons-logging.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\commons-logging.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-commons-fileupload.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\commons-fileupload.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-backport-util-concurrent.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\backport-util-concurrent.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-krysalis-jCharts-1.0.0-alpha-1.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\krysalis-jCharts-1.0.0-alpha-1.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-FastInfoset.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces\FastInfoset.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-icefaces-facelets.jar"
+  location="C:\WorkspacesEclipse\Common\plugins\com.genuitec.eclipse.icefaces_10.0.0.me201211011550\data\1.8.1\ICEfaces-Facelets\icefaces-facelets.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-hibernate-annotations.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\entitymanager\hibernate-annotations.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-hibernate-commons-annotations.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\entitymanager\hibernate-commons-annotations.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-hibernate-entitymanager.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\entitymanager\hibernate-entitymanager.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-hibernate-validator.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\hibernate-validator.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-ejb3-persistence.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\entitymanager\ejb3-persistence.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-cglib-2.2.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\bytecode\cglib\cglib-2.2.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-javassist-3.9.0.GA.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\bytecode\javassist\javassist-3.9.0.GA.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-antlr-2.7.6.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.2\lib\antlr-2.7.6.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-commons-collections-3.1.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\required\commons-collections-3.1.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-hibernate3.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\hibernate3.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-jta-1.1.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\required\jta-1.1.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-ehcache-1.2.3.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.2\lib\ehcache-1.2.3.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-slf4j-api-1.5.8.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\required\slf4j-api-1.5.8.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-slf4j-log4j12-1.5.8.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\required\slf4j-log4j12-1.5.8.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-log4j-1.2.14.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.3\lib\required\log4j-1.2.14.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-dom4j-1.6.1.jar"
+  location="C:\WorkspacesEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\99\1\.cp\myeclipse-data\3.1\lib\dom4j-1.6.1.jar" model-entity="FileSystemJar"/>
+ <web SERVLET_VERSION="2.4" model-entity="JstWeb" model-path="/web.xml">
+  <module URI="/WEB-INF/faces-config.xml" model-entity="WebJSFModule"
+   model-path="/faces-config.xml" src="src" web-root="WEB-ROOT"/>
+ </web>
+</file-systems>
