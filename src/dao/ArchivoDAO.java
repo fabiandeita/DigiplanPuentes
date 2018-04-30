@@ -92,7 +92,7 @@ public List findByIdDocumento(int idDocumento) {
 		
 		try {
 			String queryString = "from Archivo as model where model.documento.idDocumento = ?";
-			System.out.println(queryString);
+			//System.out.println(queryString);
 			Query queryObject = getSession().createQuery(queryString);
 			queryObject.setParameter(0, idDocumento);
 			return queryObject.list();
@@ -106,7 +106,7 @@ public List findByIdDocumentoOrderByDesc(int idDocumento) {
 	
 	try {
 		String queryString = "from Archivo as model where model.documento.idDocumento = ? order by model.idArchivo DESC";
-		System.out.println(queryString);
+		//System.out.println(queryString);
 		Query queryObject = getSession().createQuery(queryString);
 		queryObject.setParameter(0, idDocumento);
 		return queryObject.list();

@@ -5,8 +5,8 @@ import java.util.TimeZone;
 
 public class Configuration{
 	private String systemName = "SISTEMA DE CONSULTA DE PLANOS";
-	//private String basePath = "C:\\Servidor\\webapps\\DIGIPLAN\\"; //Donde se encuentra la aplicación
-	private String basePath = "C:\\Users\\fdeitaze\\Workspaces\\MyEclipse 2016 CI\\.metadata\\.me_tcat7\\webapps\\DIGIPLANPUENTES\\"; //Donde se encuentra la aplicación
+	private String basePath = "C:\\Servidor\\webapps\\DIGIPLANPUENTES\\"; //Donde se encuentra la aplicación
+	//private String basePath = "C:\\Users\\fdeitaze\\Workspaces\\MyEclipse 2016 CI\\.metadata\\.me_tcat7\\webapps\\DIGIPLANPUENTES\\"; //Donde se encuentra la aplicación
 	private String resourcePath = "resources\\";
 	
 	

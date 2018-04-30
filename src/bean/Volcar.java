@@ -84,15 +84,8 @@ public class Volcar {
 		}
 	}
 	
-	public String cotejar(){
-		File f;
-		
-		f = new File("c:/temp/prueba.txt");
-		
-		 
-	
+	public String cotejar(){ 
 		//Escritura
-	
 		try{
 			PrintWriter salida = null;
 			 salida = new PrintWriter("c:/temp/datos.txt");			
@@ -100,18 +93,16 @@ public class Volcar {
 			 for(Documento doc : (List<Documento>)docDAO.findAllActive()){
 				 for(Archivo archivo : (List<Archivo>)archivoDAO.findByIdDocumentoOrderByDesc(doc.getIdDocumento())){
 					 //System.out.println(archivo.getArchivo());
-					File plano = new File(conf.getBasePath() + conf.getResourcePath() + archivo.getArchivo());		
-					//System.out.println(plano.getAbsolutePath());
+					File plano = new File(conf.getBasePath() + conf.getResourcePath() + archivo.getArchivo());
 					if(!plano.exists()){
+						System.out.println("No existe: " + conf.getBasePath() + conf.getResourcePath() + archivo.getArchivo());
 						salida.println(doc.getIdDocumento() + " -- " + archivo.getArchivo());
 						doc.setActivo(new Short("0"));	
-						System.out.println(doc.getIdDocumento());
+						//System.out.println(doc.getIdDocumento());
 						docDAO.getSession().update(doc);			
-					}	
-					break;
+					}
 				 }
 			}
-			 
 			docDAO.getSession().getTransaction().commit();
 			 salida.close();
 		}catch(IOException e){e.printStackTrace();};
@@ -143,6 +134,8 @@ public class Volcar {
 			int cc = 0;
 			String numeroProyecto = "";
 			PrintWriter salida;
+			int contError = 0;
+			int sinError = 0;
 			try {
 				salida = new PrintWriter("c:/temp/log.txt");
 				for (int i = 1; i < filas; i++) {
@@ -161,8 +154,11 @@ public class Volcar {
 					
 					cell = sheet.getCell(5, i);
 					Proyecto p = getProyecto(numeroProyecto,cell.getContents().toUpperCase(), i, salida);
-					if(p == null)
+					if(p == null){
+						contError++;
+						System.out.println("No insertó por problema en el royecto: " + i );
 						continue;
+					}
 					doc.setProyecto(p);
 					
 					// System.out.println(cell.getContents());	
@@ -222,9 +218,13 @@ public class Volcar {
 					archivo.setDocumento(doc);
 					archivoDAO.save(archivo);
 					archivoDAO.getSession().getTransaction().commit();
+					sinError++;
 
 				}
 				salida.close();
+				
+				System.out.println("Proyectos no insertados: " + contError );
+				System.out.println("Proyectos insertados: " + sinError );
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
